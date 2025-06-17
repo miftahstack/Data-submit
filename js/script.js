@@ -26,5 +26,4 @@ subbtn.addEventListener("click", () => {
     name: nameInput.value,
     description: desInput.value,
   });
-  (nameInput.value = ""), (desInput.value = "");
 });
