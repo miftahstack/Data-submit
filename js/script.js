@@ -21,9 +21,10 @@ function showcard() {
 }
 
 subbtn.addEventListener("click", () => {
-  showcard();
+  
   arr.push({
     name: nameInput.value,
     description: desInput.value,
   });
+  showcard();
 });
